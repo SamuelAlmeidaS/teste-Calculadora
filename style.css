@@ -1,37 +1,31 @@
 
-   
-}
-div.bloco1{
-    text-align: left;
-    b
-}
 .botoes1{
-    text-align: left;
+    
     display: block;
 }
 .botoes2{
-    text-align: left;
+    
     display: block;
 
 }
 .botoes3{
-    text-align: left;
+   
     display: block;
 }
 .zero{
-    text-align: left;
+    
     display: block;
 }
-.op{ 
-      display: inline;
-
-}
-div.position{
-    float: right;
-}
 div.display{
-    text-align: center;
-    width: 16%;
+    margin: auto;
+    width: 110px;
     height: 18px;
     background-color: blue;
+}
+div.alinhamento{
+    align-items: center;
+}
+div.alin{
+    text-align: center;
+    width: 100%;
 }

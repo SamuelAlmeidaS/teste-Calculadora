@@ -1,38 +1,37 @@
 
-div.display{
+#display{
     margin: auto;
     width: 130px;
     height: 30px;
-    background-color: blue;
-    border: blue;
-    border-radius: 50px;
+    background-color: rgba(51, 204, 13, 0.979);
 }
-div.alinhamento{
+#calculadora {
     align-items: center;
-}
-div.alin{
+    display:block;
     text-align: center;
-    padding: 50px;
-    border-radius: 20px; 
-    background-color: lightgrey;
-    width: 150px;
-    border: 10px solid green;
-    margin: auto;
 }
-.botoes1{
-    display: block; 
-    font-size: 30px;
-}   
-.botoes2{
+.num{
+    width: 35px;
+    background-color: #eeeeee;
+    display: inline-block;
+    margin: 3px 0px 8px 3px;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
     
-    display: block;
-    font-size: 30px;
 }
-.botoes3{
-    font-size: 30px;
-    display: block;
-}
-.zero{
-    font-size: 30px;
-    display: block;
+.opera{
+    width: 35px;
+    background-color: #eeeeee;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 0px 8px 3px;
 }
